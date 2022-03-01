@@ -55,28 +55,33 @@ ul.ul{
 }
 
 /*Hero Section*/
+
 .heroSection{
 
     height: 400px;
     background-image: url('images/ellipse.png');
-    background-size: 594px 370px;
-    height: 370px;
+    background-size: 694px 455px;
+    height: auto;
     background-repeat: no-repeat;
     /* background-attachment: inherit; */
     background-position: 50% 50%;
-    margin: 5% auto 0 auto;
+    margin: 5px auto;
+    background-position: bottom;
 }
 .mT.intro{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
+
 .hi{
-    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Bad Script', cursive;
     font-style: italic;
-    font-weight: normal;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 27px;
     line-height: 49px;
+    margin-top: 7%;
 }
 .hi.heart{
     display: flex;
@@ -85,6 +90,50 @@ ul.ul{
 }
 .selfIntro{
     font-family: 'Bad Script', cursive; ;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: lighter ;
+    padding: 5% 0;
+    text-align: justify;
+}
+/*Resume button*/
+.resume{
+    height: 42px;
+    width: 152px;
+    background-color: transparent;
+    border: 1px solid #505317;
+    font-family: 'Saira', sans-serif;
+    font-size: 15px;
+    color: #505317;
+    margin: 5% 0;
+    cursor: pointer;
+}
+
+/* Skill Section*/
+.skillSection{
+    position: relative;
+    background: transparent;
+    border: 2px solid #999B77;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 526px;
+    width: 710px;
+    margin: 10% auto;
+
+}
+
+.skillTitle{
+    top: -4%;
+    position: relative;
+    font-family: 'Spectral SC', serif;
+    font-size: 30px ;
+    color: #505317;
+
+}
+.pSkill{
+    text-align: center;
+    text-decoration: white;
+    width: fit-content;
+    margin: auto;
+    padding: 0 5%;
+    background-color: white;
 }
