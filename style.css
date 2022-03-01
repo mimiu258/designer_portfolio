@@ -58,7 +58,7 @@ ul.ul{
 .heroSection{
 
     height: 400px;
-    background-image: url('/images/ellipse.png');
+    background-image: url('images/ellipse.png');
     background-size: 594px 370px;
     height: 370px;
     background-repeat: no-repeat;
