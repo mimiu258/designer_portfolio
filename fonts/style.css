@@ -1,0 +1,33 @@
+html{scroll-behavior: smooth;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.inline-block a {
+    list-style: none;
+    text-decoration: none;
+    color:#5E6129;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color:#5E6129;
+}
+.inline-block a:hover {
+    color: #DFA123;
+    text-decoration: underline;
+}
+
+.inline-block.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ul li{
+    padding: 0 20px;
+    font-family: 'saira';
+    font-size: 19px;
+    font-weight: normal;
+
+}

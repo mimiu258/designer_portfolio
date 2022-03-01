@@ -1,0 +1,90 @@
+html{scroll-behavior: smooth;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Logo on hover*/
+.logo{
+    padding: 0 20px;
+}
+.logo1{
+    position: absolute;
+}
+.logo2{
+    position: relative;
+    width: auto;
+    opacity: 0%;
+}
+.logo2:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+/* Website Nav Bar*/
+
+.inline-block a {
+    list-style: none;
+    text-decoration: none;
+    color:#5E6129;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color:#5E6129;
+}
+.inline-block a:hover {
+    color: #DFA123;
+    text-decoration: underline;
+}
+
+.inline-block.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+ul.ul{
+    display: flex;
+}
+.ul li{
+    padding: 0 20px;
+    font-family: 'Saira', sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+
+}
+
+/*Hero Section*/
+.heroSection{
+
+    height: 400px;
+    background-image: url('/images/ellipse.png');
+    background-size: 594px 370px;
+    height: 370px;
+    background-repeat: no-repeat;
+    /* background-attachment: inherit; */
+    background-position: 50% 50%;
+    margin: 5% auto 0 auto;
+}
+.mT.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hi{
+    font-family: 'La Belle Aurore', cursive;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 49px;
+}
+.hi.heart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.selfIntro{
+    font-family: 'Bad Script', cursive; ;
+    font-size: 19px;
+    font-weight: lighter ;
+}
