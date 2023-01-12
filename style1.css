@@ -1,0 +1,496 @@
+html{scroll-behavior: smooth;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h5{
+    font-family: 'Spectral SC', serif;
+    font-size: 28px ;
+    color: #5E6129;
+    font-weight: 500;
+}
+h6{
+    font-family: 'Saira', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #5E6129;
+    padding: 5px;
+}
+h2{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #C99E47;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+h3{
+    font-family: 'Spectral SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #6C8CA7;
+}
+p{
+    font-family: 'Saira';
+    font-size: 17px;
+    color: #000;
+}
+.note{
+    font-family: 'Saira';
+    font-style: italic;
+    font-weight: 400; 
+    font-size: 17px; 
+    color: #868080;
+}
+/*Logo on hover*/
+.logo{
+    padding: 0 20px;
+}
+.logo1{
+    position: absolute;
+}
+.logo1:hover{
+    display: none;
+    opacity: 0;
+}
+.logo2{
+    position: relative;
+    width: auto;
+    opacity: 0%;
+}
+.logo2:hover{
+    opacity: 100%;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+/* Website Nav Bar*/
+
+.inline-block a {
+    list-style: none;
+    text-decoration: none;
+    color:#5E6129;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color:#5E6129;
+}
+.inline-block a:hover {
+    color: #DFA123;
+    text-decoration: underline;
+    transition: ease 0.2s;
+}
+
+.inline-block.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+ul.ul{
+    display: flex;
+}
+.ul li{
+    padding: 0 20px;
+    font-family: 'Baloo Tamma 2';
+    font-size: 19px;
+    font-weight: normal;
+
+}
+a{
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #6C8CA7;
+    text-decoration: none;
+    margin: 0 5px;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*Up button*/
+#upButton{
+    display: none;
+    opacity: 80%;
+    z-index: 1;
+    position: fixed;
+    right: 50px;
+    bottom: 25%;
+    height: 100px; 
+    width:auto;
+}
+.upButton{
+    width: 100px;
+}
+#upButton:hover{
+    filter: drop-shadow(0px -1px 7px rgba(198, 177, 177, 0.3));
+    opacity: 100%;
+    transform: ease 0.7s;
+    cursor:pointer;
+}
+
+/*hero*/
+
+.hh{
+    width: auto;
+    height: auto;
+/* ombrecasestudy */
+    background: linear-gradient(180deg, rgba(173, 209, 211, 0.7) 0%, rgba(217, 217, 217, 0) 100%);
+}
+#hero{
+    display: flex;
+    justify-content: center;
+}
+.h{
+    width: 1000px; 
+    height: auto; 
+    justify-self: center; 
+    background: transparent;
+}
+.mobileHH{
+    display: none;
+}
+/*Case study intro*/
+.casestudyIntro{
+    margin: 20px auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Saira';
+    font-size: 14px;
+
+}
+
+.decoFlo{
+    width: 130px;
+    margin: 20px auto;
+}
+
+.phase{
+    margin: 25px 10%;
+    display: flex;
+    justify-content: center;
+}
+/*Description*/
+.description{
+    margin: 30px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    text-align: justify;
+}
+
+/*Overview*/
+.overview{
+    margin: 45px 10%;
+}
+
+#compare{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.compare{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 25px 2%;
+    width: 410px;
+}
+
+/*Interview*/
+#interview{
+    display: flex;
+    flex-direction: row;
+    margin: 45px 10%;
+}
+.interviewText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    
+}
+
+/*persona*/
+.persona{
+    margin: 20px 10%;
+    text-align: justify;
+}
+.gina{
+    width: 950px;
+    margin: 30px auto;
+    display: flex;
+}
+/* Problem statement*/
+#statement{
+    border: 4px solid #6c8ca76e;
+    text-align: justify;
+    width: 58%;
+    padding: 4%;
+    margin: 80px auto;
+    border-radius: 20px;
+}
+.statement{
+    margin: 0 auto 6% auto;
+    display:flex; 
+    align-items:center;
+    justify-content: center;
+}
+
+/*Diagram*/
+#diagram{
+    margin: 40px 10%;
+}
+.diagram{
+    display: flex;
+    flex-flow: row;
+    margin: 8% auto;
+}
+.diagramImg{
+    width:500px;
+}
+.diagramText{
+    margin: 0 7%; 
+    text-align: justify;
+}
+
+/*storyboard*/
+#storyboard{
+    margin: 40px 10%;
+    text-align: justify;
+}
+.story{
+    margin: 6% auto;
+    width: 714px;
+    justify-content: center;
+    display: flex;
+}
+/*User Flow*/
+.task{
+    display: flex;
+    width: 100%;
+    margin: 5% auto;
+}
+.links{
+    display: flex;
+    margin: 6% auto;
+    align-items: center;
+    justify-content: center;
+}
+/*Wireframes*/
+.testList{
+    margin-left: 20%;
+    margin-bottom: 8%;
+}
+/*Prototype*/
+#hifiGrid{
+    display: grid;
+    justify-content: center;
+}
+.gridItem{
+    width: 694px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.gifs{
+    margin: 5%;
+    border: 0.7px solid rgba(151, 151, 151, 0.5);
+    filter: drop-shadow(-1px 1px 6px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.gifText{
+    width: 257px;
+    text-align: justify;
+    margin: 5%;
+}
+
+
+.embed{
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    width:fit-content;
+    height:450; 
+}
+.embeded{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+/*Thanks*/
+
+.thank{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: justify;
+    color: #C99E47;
+    margin: 10% auto 2% auto;
+    display: flex;
+    justify-content: center;
+}
+.seemore{
+    display: flex;
+    justify-content: center;
+}
+.resume{
+    width: 144px;
+    height: 38px;
+    background-color: transparent;
+    border: 1px solid #767A31;
+    font-family: 'Baloo Tamma 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #767A31;
+    margin: 5% 0;
+    cursor: pointer;
+}
+
+/**/
+/**/
+/*Responsive screen*/
+@media only screen and (max-width:768px){
+   #upButton{
+    left: 30px;
+    bottom: 10%;
+    width: fit-content
+   }
+   .upButton{
+    width: 80px;
+   }
+   a{
+    font-size: 12px;
+   }
+    .h{
+    display: none;
+   }
+   .mobileHH{
+    display: block;
+    width: 400px;
+    height: auto;
+    background: transparent;
+    justify-self: center;
+   }
+   .casestudyIntro{
+    width: auto;
+    }
+    p{
+        font-size: 12px;
+    }
+    .description{
+        width: auto;
+        margin: 20px 10%;
+    }
+    #interview{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .interviewText{
+        margin: auto;
+    }
+    #compare{
+        display: flex;
+        flex-flow: column;
+    }
+    .line2{
+        display: none;
+    }
+    .note{
+        width: auto;
+        margin: 2px auto;
+        font-size: 12px;
+    }
+    .gina{
+        width: 500px;
+        margin: 30px auto;
+        display: flex;
+    }
+    #statement{
+    width: 80%;
+    padding:6%;
+}
+    .diagramImg{
+    width:300;
+}
+    .diagram{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .diagramText{
+        margin: 7%; 
+        text-align:center;
+    }
+    .story{
+        width: 480px;
+    }
+   
+    .testList{
+        margin-left: 10%;
+    }
+    .gifs{
+        height: 234px;
+    }
+    .gridItem{
+        flex-direction: column;
+        width: 350px;
+    }
+ }
+ 
+/*Footer*/
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.socialApp{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 110px;
+   margin: 1% auto;
+}
+.email{
+    text-decoration: none;
+    font-family: 'Saira'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 14px;
+    color: #5E6129; 
+    margin: 1% auto;
+}
+.display{
+    width: 310px;
+    height: auto;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+}
